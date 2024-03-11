@@ -17,7 +17,7 @@
 //	Console.WriteLine(letter);
 //}
 
-
+/*
 // Desafío para invertir las palabras de una oración:
 string pangram = "The quick brown fox jumps over the lazy dog";
 string finalPhrase = "";
@@ -29,3 +29,13 @@ foreach (string word in words) {
 	finalPhrase += reversedWord + " ";
 } 
 Console.WriteLine(finalPhrase);
+*/
+
+// Desafío para analizar una cadena de pedidos,
+// ordenar los pedidos y etiquetar posibles errores
+string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
+string[] labels = orderStream.Split(',');
+Array.Sort(labels);
+foreach (string label in labels) {
+	Console.WriteLine(label.Length == 4 ? label : label + "\t- Error");
+}
