@@ -29,7 +29,24 @@
 ////	Measurement: 123.456,7891 units
 
 
-// Formatting percentage numbers
-decimal tax = 0.36785m;
-Console.WriteLine($"Tax rate: {tax:P2}");
-//	Tax rate: 36,79 %
+//// Formatting percentage numbers
+//decimal tax = .36785m;
+//Console.WriteLine($"Tax rate: {tax:P2}");
+////	Tax rate: 36,79 %
+
+
+decimal price = 67.55m;
+decimal salePrice = 59.99m;
+
+string yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} price. ", (price - salePrice), price);
+
+decimal percentage = (price - salePrice) / price;
+
+yourDiscount += $"A discount of {percentage:P2}!"; //inserted
+Console.WriteLine(yourDiscount);
+
+/*
+	C	currency
+	N	decimal with point to delimiter hundred, thousand, etc
+	P	percentage
+ */
