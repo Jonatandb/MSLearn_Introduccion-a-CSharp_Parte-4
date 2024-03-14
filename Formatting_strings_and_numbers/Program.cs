@@ -50,3 +50,5 @@ Console.WriteLine(yourDiscount);
 	N	decimal with point to delimiter hundred, thousand, etc
 	P	percentage
  */
+
+// More information: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated
