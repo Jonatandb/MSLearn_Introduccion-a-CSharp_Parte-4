@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_interpolation_explor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_padLeft_padRight", "String_padLeft_padRight\String_padLeft_padRight.csproj", "{C04742EF-6BFD-40CC-8EEA-C97E65C0227A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_formatting_challenge", "String_formatting_challenge\String_formatting_challenge.csproj", "{286CF2E3-A32D-4740-A98C-C7025E89BB9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{C04742EF-6BFD-40CC-8EEA-C97E65C0227A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C04742EF-6BFD-40CC-8EEA-C97E65C0227A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C04742EF-6BFD-40CC-8EEA-C97E65C0227A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286CF2E3-A32D-4740-A98C-C7025E89BB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286CF2E3-A32D-4740-A98C-C7025E89BB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286CF2E3-A32D-4740-A98C-C7025E89BB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286CF2E3-A32D-4740-A98C-C7025E89BB9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
