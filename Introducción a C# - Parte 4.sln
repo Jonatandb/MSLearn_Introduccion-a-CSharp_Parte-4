@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_padLeft_padRight", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_formatting_challenge", "String_formatting_challenge\String_formatting_challenge.csproj", "{286CF2E3-A32D-4740-A98C-C7025E89BB9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using_IndexOf_Substring", "Using_IndexOf_Substring\Using_IndexOf_Substring.csproj", "{2AA106A2-D252-48DA-A52C-4FA053EFE8BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using_IndexOf_Substring", "Using_IndexOf_Substring\Using_IndexOf_Substring.csproj", "{2AA106A2-D252-48DA-A52C-4FA053EFE8BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexOfAny_LastIndexOf", "IndexOfAny_LastIndexOf\IndexOfAny_LastIndexOf.csproj", "{A4E06C88-9982-45BA-A9A1-F10FE78FE31F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{2AA106A2-D252-48DA-A52C-4FA053EFE8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA106A2-D252-48DA-A52C-4FA053EFE8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AA106A2-D252-48DA-A52C-4FA053EFE8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E06C88-9982-45BA-A9A1-F10FE78FE31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E06C88-9982-45BA-A9A1-F10FE78FE31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E06C88-9982-45BA-A9A1-F10FE78FE31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E06C88-9982-45BA-A9A1-F10FE78FE31F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
